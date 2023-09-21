@@ -1,0 +1,17 @@
+###
+GET http://localhost:9000/api/users/ HTTP/1.1
+
+### 
+POST http://localhost:9000/api HTTP/1.1
+Content-Type: application/json
+
+{
+    "CommonName": "Ciruela",
+    "ScientificName": "Ciruelosis",
+    "CultivationTime": "130",
+    "Characteristics": "fruta bonita y pequeña",
+    "Diseases": "mosca de la fruta"
+}
+
+###
+DELETE  http://localhost:9000/api/22 HTTP/1.1
